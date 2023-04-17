@@ -10,7 +10,7 @@ int main()
 	{
 		if (arr[i]==a)
 		{
-			printf("The element is at position %d",(i+1));	
+			return i+1;break;	
 		}
 	}
 }
